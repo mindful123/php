@@ -21,15 +21,16 @@
                 }
 
                 // Query database for all rows in the table
-                $sql = "SELECT * FROM mytable";
+                $sql = "SELECT * FROM dept_manager";
                 $result = $conn->query($sql);
-
+        
                 if ($result->num_rows > 0) {
                         // Display table headers
-                        echo "<table><tr><th>ID</th><th>Name</th><th>Email</th></tr>";
+                        echo "<table><tr><th>EMP No</th><th>Dept No</th><th>From_Date</th></tr>";
                         // Loop through results and display each row in the table
+
                         while($row = $result->fetch_assoc()) {
-                                echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . $row["email"] . "</td></tr>";
+                                echo "<tr><td>" . $row["emp_no"] . "</td><td>" . $row["dept_no"] . "</td><td>" . $row["from_date"] . "</td></tr>";
                         }
                         echo "</table>";
                 } else {
@@ -38,6 +39,7 @@
 
                 // Close database connection
                 $conn->close();
+
         ?>
 </body>
 </html>
