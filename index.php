@@ -8,9 +8,9 @@
         <?php
                 // Define database connection variables
                 $servername = "1umyrl";
-                $username = "1my1user";
-                $password = "1mypasswordWORD";
-                $dbname = "1mydatabase";
+                $username = "my1user";
+                $password = "my1password@";
+                $dbname = "mydatabase";
 
                 // Create database connection
                 $conn = new mysqli($servername, $username, $password, $dbname);
