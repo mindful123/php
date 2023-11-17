@@ -11,7 +11,7 @@ URL="myflexiblemysqlserver74842.mysql.database.azure.com"
 
 # Update packages and install required software
 sudo apt-get update    >> /tmp/log
-sudo apt-get install -y apache2 php mysql-client    >> /tmp/log
+sudo apt-get install -y apache2 php mysql-client php-mysqli   >> /tmp/log
 
 
 cd /opt
