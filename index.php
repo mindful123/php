@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>MySQL Table Viewer</title>
+        <title> AzureAppService MySQL Table Viewer</title>
 </head>
 <body>
-        <h1>MySQL Table Viewer</h1>
+        <h1>AzureAppService MySQL Table Viewer</h1>
         <?php
                 // Define database connection variables
                 $servername = "myflexiblemysqlserver74842.mysql.database.azure.com";
