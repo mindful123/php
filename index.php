@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title> AzureAppService MySQL Table Viewer</title>
+        <title> AzureAppService PhPApp MySQL Table Viewer</title>
 </head>
 <body>
         <h1>AzureAppService MySQL Table Viewer</h1>
